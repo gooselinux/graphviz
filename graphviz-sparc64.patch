@@ -1,0 +1,11 @@
+--- graphviz-2.26.0/configure.sparc64	2009-12-10 17:30:43.000000000 -0600
++++ graphviz-2.26.0/configure	2009-12-18 11:31:30.000000000 -0600
+@@ -2834,7 +2834,7 @@
+ case "${host_os}" in
+   *linux* )
+     case "${host_cpu}" in
+-      powerpc64 | s390x | x86_64 )
++      powerpc64 | s390x | x86_64 | sparc64 )
+         LIBPOSTFIX="64"
+         ;;
+     esac
